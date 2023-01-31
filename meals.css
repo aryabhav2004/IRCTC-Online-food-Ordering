@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    background-color: #E0FFFF;
+}
+nav{
+    background-color: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 9px;
+    border-radius: 20cm;
+}
+a.active,a:hover{
+    background-color: #1b9bff;
+    transition: 0.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:952px)
+{
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+
+
+/* Special List */
+ul{
+    list-style: none;
+
+}
+ul li{
+    display: inline;
+    justify-content: space-between;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+
+
+/* Menu Boxes */
+.box100{
+    display: flex;
+    gap: 60px;
+    margin-left: 220px;
+}
+.box1{
+    height: 300px;
+    width: 700px;
+    background-color: #0082e6;
+    display: flex;
+    gap: 10px;
+    border-radius: 0.5cm;
+}
+.box2{
+    height: 300px;
+    width: 700px;
+    background-color: #0082e6;
+    display: flex;
+    gap: 10px;
+    border-radius: 0.5cm;
+}
+.box1:hover{
+    transition: all 0.5s;
+    height: 320px;
+    width: 720px;
+}
+.box2:hover{
+    transition: all 0.5s;
+    height: 320px;
+    width: 720px;
+}
+
+/* 2nd Row */
+.box200{
+    display: flex;
+    gap: 60px;
+    margin-left: 220px;
+}
+.box3{
+    height: 300px;
+    width: 700px;
+    background-color: #0082e6;
+    display: flex;
+    gap: 10px;
+    border-radius: 0.5cm;
+}
+.box4{
+    height: 300px;
+    width: 700px;
+    background-color: #0082e6;
+    display: flex;
+    gap: 10px;
+    border-radius: 0.5cm;
+}
+.box3:hover{
+    transition: all 0.5s;
+    height: 320px;
+    width: 720px;
+}
+.box4:hover{
+    transition: all 0.5s;
+    height: 320px;
+    width: 720px;
+}
+
+
+/*  */
+/* Footer Section */
+footer{
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.box10{
+    background-color:#0082e6 ;
+    width: 25%;
+    height: 200px;
+}
+.box20{
+    background-color: #0082e6 ;
+    width: 25%;
+    height: 200px;
+}
+.box30{
+    background-color: #0082e6 ;
+    width: 25%;
+    height: 200px;
+}
+.box40{
+    background-color:#0082e6 ;
+    width: 25%;
+    height: 200px;
+}
+.signs{
+    margin-left: 130px;
+   
+}
+.part-2{
+    background-color: #0082e6;
+    width: 100%;
+}
+.signs{
+    display: flex;
+}
+/* Animation to Footer */
+.insta:hover{
+    font-size:60px ;
+    transition: all 0.5s;
+}
+.twi:hover{
+    font-size:60px ;
+    transition: all 0.5s;
+}
+.face:hover{
+    font-size:60px ;
+    transition: all 0.5s;
+}
+.about:hover{
+    font-size:40px ;
+    transition: all 0.5s;   
+}
